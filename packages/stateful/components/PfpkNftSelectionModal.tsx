@@ -2,7 +2,7 @@ import {
   ChainInfoID,
   WalletConnectionStatus,
   useWallet,
-} from '@noahsaso/cosmodal'
+} from '@xiti/cosmodal'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import toast from 'react-hot-toast'
 import { useTranslation } from 'react-i18next'
@@ -35,7 +35,7 @@ export const InnerPfpkNftSelectionModal = ({
     address: junoWalletAddress,
     status: junoConnectionStatus,
     error: junoConnectionError,
-  } = useWallet(ChainInfoID.Juno1)
+  } = useWallet(ChainInfoID.Terpnet1)
   const {
     address: stargazeWalletAddress,
     status: stargazeConnectionStatus,
@@ -50,7 +50,7 @@ export const InnerPfpkNftSelectionModal = ({
       junoWalletAddress
         ? walletNftCardInfos({
             walletAddress: junoWalletAddress,
-            chainId: ChainInfoID.Juno1,
+            chainId: ChainInfoID.Terpnet1,
           })
         : undefined
     )
@@ -61,7 +61,7 @@ export const InnerPfpkNftSelectionModal = ({
       junoWalletAddress
         ? walletStakedNftCardInfos({
             walletAddress: junoWalletAddress,
-            chainId: ChainInfoID.Juno1,
+            chainId: ChainInfoID.Terpnet1,
           })
         : undefined
     )

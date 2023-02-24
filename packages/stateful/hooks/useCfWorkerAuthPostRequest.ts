@@ -1,5 +1,5 @@
 import { makeSignDoc } from '@cosmjs/amino'
-import { useWallet } from '@noahsaso/cosmodal'
+import { useWallet } from '@xiti/cosmodal'
 import { useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
 

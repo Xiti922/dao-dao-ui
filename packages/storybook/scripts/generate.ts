@@ -6,7 +6,7 @@
 // `../**/*` if it does not start with `.`, `/`, or `*`, and suffixed with
 // `*.tsx` if it does not end with `.tsx`.
 
-// Author: Noah Saso (@NoahSaso)
+// Author: Noah Saso (@xiti)
 
 import fs from 'fs'
 import path from 'path'

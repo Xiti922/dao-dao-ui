@@ -1,4 +1,4 @@
-import { useWallet } from '@noahsaso/cosmodal'
+import { useWallet } from '@xiti/cosmodal'
 import { useEffect } from 'react'
 
 import {

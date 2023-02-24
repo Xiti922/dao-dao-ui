@@ -1,4 +1,4 @@
-import { ChainInfoID } from '@noahsaso/cosmodal'
+import { ChainInfoID } from '@xiti/cosmodal'
 
 import { WithChainId } from '@dao-dao/types'
 import { CHAIN_ID, SITE_URL, fetchWithTimeout } from '@dao-dao/utils'
@@ -55,7 +55,7 @@ export const queryIndexer = async <T = any>(
 
 export const queryFeaturedDaoDumpStatesFromIndexer = () =>
   queryIndexer('generic', '_', 'featuredDaos', {
-    chainId: ChainInfoID.Juno1,
+    chainId: ChainInfoID.Terpnet1,
     // Needed for server-side queries.
     baseUrl: SITE_URL,
   })

@@ -1,6 +1,6 @@
 import { Buffer } from 'buffer'
 
-import { ChainInfoID, useWallet } from '@noahsaso/cosmodal'
+import { ChainInfoID, useWallet } from '@xiti/cosmodal'
 import { useCallback, useState } from 'react'
 import toast from 'react-hot-toast'
 import { useTranslation } from 'react-i18next'

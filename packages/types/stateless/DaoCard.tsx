@@ -13,7 +13,7 @@ export interface DaoCardInfoLazyData {
 }
 
 export interface DaoCardInfo {
-  // Use ChainInfoID from @noahsaso/cosmodal.
+  // Use ChainInfoID from @xiti/cosmodal.
   chainId: string
   coreAddress: string
   name: string

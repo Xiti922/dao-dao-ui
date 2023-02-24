@@ -1,4 +1,4 @@
-import { useWallet } from '@noahsaso/cosmodal'
+import { useWallet } from '@xiti/cosmodal'
 import { saveAs } from 'file-saver'
 import { parse as parseJsonToCsv } from 'json2csv'
 import { useCallback, useState } from 'react'

@@ -76,4 +76,4 @@ yarn generate ~/Developer/dao-dao-ui/apps/dapp/components/SeriouslyMoveMePlease.
 
 ## Support
 
-If you have any questions, reach out to noah (@noahsaso) on Discord.
+If you have any questions, reach out to noah (@xiti) on Discord.

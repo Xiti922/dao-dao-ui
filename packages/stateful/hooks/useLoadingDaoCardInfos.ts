@@ -1,4 +1,4 @@
-import { ChainInfoID } from '@noahsaso/cosmodal'
+import { ChainInfoID } from '@xiti/cosmodal'
 import { useEffect } from 'react'
 import { useSetRecoilState, waitForAll } from 'recoil'
 
@@ -42,7 +42,7 @@ export const useLoadingFeaturedDaoCardInfos = (): LoadingData<
   const data = useLoadingDaoCardInfos(
     featuredDaos.map(({ coreAddress }) => coreAddress),
     // Featured DAOs only exist on mainnet.
-    ChainInfoID.Juno1
+    ChainInfoID.Terpnet1
   )
 
   // Once featured DAOs load once, clear cache from page static props so the DAO

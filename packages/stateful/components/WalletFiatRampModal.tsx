@@ -1,4 +1,4 @@
-import { useWallet } from '@noahsaso/cosmodal'
+import { useWallet } from '@xiti/cosmodal'
 import { useTranslation } from 'react-i18next'
 
 import { KadoModal } from '@dao-dao/stateless'

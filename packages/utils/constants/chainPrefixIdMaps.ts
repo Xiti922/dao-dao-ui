@@ -1,4 +1,4 @@
-import { ChainInfoID } from '@noahsaso/cosmodal'
+import { ChainInfoID } from '@xiti/cosmodal'
 
 import { ChainPrefixIdMap } from '@dao-dao/types'
 
@@ -6,11 +6,11 @@ import { ChainPrefixIdMap } from '@dao-dao/types'
 // to the chain ID it is on.
 
 const testnet: ChainPrefixIdMap = {
-  juno: ChainInfoID.Uni6,
+  terp: ChainInfoID.Uni6,
 }
 
 const mainnet: ChainPrefixIdMap = {
-  juno: ChainInfoID.Juno1,
+  terp: ChainInfoID.Terpnet1,
 }
 
 export const ChainPrefixIdMaps = {

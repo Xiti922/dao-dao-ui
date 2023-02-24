@@ -6,7 +6,7 @@ import {
   StargateClient,
   decodeCosmosSdkDecFromProto,
 } from '@cosmjs/stargate'
-import { ChainInfoID } from '@noahsaso/cosmodal'
+import { ChainInfoID } from '@Xiti922/cosmodal'
 import { ProposalStatus } from 'cosmjs-types/cosmos/gov/v1beta1/gov'
 import { cosmos, juno } from 'interchain-rpc'
 import { DelegationDelegatorReward } from 'interchain-rpc/types/codegen/cosmos/distribution/v1beta1/distribution'
@@ -91,7 +91,7 @@ export const junoRpcClientSelector = selector({
   get: async () =>
     (
       await juno.ClientFactory.createRPCQueryClient({
-        rpcEndpoint: getRpcForChainId(ChainInfoID.Juno1),
+        rpcEndpoint: getRpcForChainId(ChainInfoID.Terpnet1),
       })
     ).juno,
 })

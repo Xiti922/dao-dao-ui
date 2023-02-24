@@ -3,7 +3,7 @@ import {
   ChainInfoID,
   useConnectWalletToChain,
   useWallet,
-} from '@noahsaso/cosmodal'
+} from '@xiti/cosmodal'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useRecoilValue, useSetRecoilState } from 'recoil'
 
@@ -136,7 +136,7 @@ export const useWalletInfo = (chainId?: string): UseWalletReturn => {
       // Use a consistent chain for the signer since the chain ID is part of the
       // signature and PFPK needs to know what to expect.
       const { address: signingAddress, walletClient: signingWalletClient } =
-        await connectWalletToChain(ChainInfoID.Juno1)
+        await connectWalletToChain(ChainInfoID.Terpnet1)
 
       // Set onUpdate handler.
       onUpdateRef.current = onUpdate
@@ -148,7 +148,7 @@ export const useWalletInfo = (chainId?: string): UseWalletReturn => {
         }
 
         const offlineSignerAmino =
-          await signingWalletClient.getOfflineSignerOnlyAmino(ChainInfoID.Juno1)
+          await signingWalletClient.getOfflineSignerOnlyAmino(ChainInfoID.Terpnet1)
         const signDocAmino = makeSignDoc(
           [
             {
@@ -168,7 +168,7 @@ export const useWalletInfo = (chainId?: string): UseWalletReturn => {
               },
             ],
           },
-          ChainInfoID.Juno1,
+          ChainInfoID.Terpnet1,
           '',
           0,
           0

@@ -5,7 +5,7 @@ import {
   HomeOutlined,
   InboxOutlined,
 } from '@mui/icons-material'
-import { WalletConnectionStatus, useWallet } from '@noahsaso/cosmodal'
+import { WalletConnectionStatus, useWallet } from '@xiti/cosmodal'
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useRecoilState } from 'recoil'

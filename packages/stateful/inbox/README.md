@@ -1,6 +1,6 @@
 # @dao-dao/stateful/inbox
 
-Author: [@NoahSaso](https://github.com/NoahSaso)
+Author: [@xiti](https://github.com/Xiti922)
 
 ## Sources
 

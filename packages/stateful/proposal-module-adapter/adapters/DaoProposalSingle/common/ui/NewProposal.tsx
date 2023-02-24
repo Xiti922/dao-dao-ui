@@ -4,7 +4,7 @@ import {
   Visibility,
   VisibilityOff,
 } from '@mui/icons-material'
-import { WalletConnectionStatus, useWallet } from '@noahsaso/cosmodal'
+import { WalletConnectionStatus, useWallet } from '@xiti/cosmodal'
 import clsx from 'clsx'
 import Fuse from 'fuse.js'
 import cloneDeep from 'lodash.clonedeep'

@@ -1,5 +1,5 @@
 import { Add } from '@mui/icons-material'
-import { useWallet } from '@noahsaso/cosmodal'
+import { useWallet } from '@xiti/cosmodal'
 import cloneDeep from 'lodash.clonedeep'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useFieldArray } from 'react-hook-form'

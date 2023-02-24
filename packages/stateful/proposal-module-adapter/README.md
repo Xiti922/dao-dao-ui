@@ -1,6 +1,6 @@
 # @dao-dao/stateful/proposal-module-adapter
 
-Author: [@NoahSaso](https://github.com/NoahSaso)
+Author: [@xiti](https://github.com/Xiti922)
 
 ## Adapters
 

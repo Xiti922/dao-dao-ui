@@ -71,15 +71,15 @@ const config = {
   ],
   webpack: (config, options) => {
     if (options.isServer) {
-      config.externals = ['@noahsaso/cosmodal', ...config.externals]
+      config.externals = ['@xiti/cosmodal', ...config.externals]
     }
 
-    config.resolve.alias['@noahsaso/cosmodal'] = path.resolve(
+    config.resolve.alias['@xiti/cosmodal'] = path.resolve(
       __dirname,
       '..',
       '..',
       'node_modules',
-      '@noahsaso',
+      '@xiti',
       'cosmodal'
     )
 

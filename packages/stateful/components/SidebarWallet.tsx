@@ -1,4 +1,4 @@
-import { WalletConnectionStatus, useWalletManager } from '@noahsaso/cosmodal'
+import { WalletConnectionStatus, useWalletManager } from '@xiti/cosmodal'
 
 import { SidebarWallet as OriginalSidebarWallet } from '@dao-dao/stateless'
 import { NATIVE_DECIMALS, NATIVE_DENOM, nativeTokenLabel } from '@dao-dao/utils'

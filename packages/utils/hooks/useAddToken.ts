@@ -11,7 +11,7 @@ export const useAddToken = () => {
   const addToken = useMemo(
     () =>
       // Can only add tokens on mainnet.
-      CHAIN_ID === 'juno-1'
+      CHAIN_ID === 'athena-4'
         ? async (address: string) => {
             const keplr = await (
               await import('@keplr-wallet/stores')

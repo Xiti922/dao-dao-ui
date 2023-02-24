@@ -2,7 +2,7 @@ import { Buffer } from 'buffer'
 
 import { fromHex, toBech32 } from '@cosmjs/encoding'
 import { decodeCosmosSdkDecFromProto } from '@cosmjs/stargate'
-import { ChainInfoID, ChainInfoMap } from '@noahsaso/cosmodal'
+import { ChainInfoID, ChainInfoMap } from '@xiti/cosmodal'
 import { bondStatusToJSON } from 'cosmjs-types/cosmos/staking/v1beta1/staking'
 import { Validator as RpcValidator } from 'interchain-rpc/types/codegen/cosmos/staking/v1beta1/staking'
 import RIPEMD160 from 'ripemd160'
@@ -35,8 +35,8 @@ export const getUrlBaseForChainId = (chainId: string): string =>
   chainId === CHAIN_ID
     ? ''
     : // Otherwise use chain-specific one.
-    chainId === ChainInfoID.Juno1
-    ? 'https://daodao.zone'
+    chainId === ChainInfoID.Terpnet1
+    ? 'https://daodao.terp.network'
     : chainId === ChainInfoID.Uni6
     ? 'https://testnet.daodao.zone'
     : ''
@@ -61,7 +61,7 @@ export const cosmosValidatorToValidator = ({
 })
 
 export const getImageUrlForChainId = (chainId: string) =>
-  chainId === ChainInfoID.Juno1 || chainId === ChainInfoID.Uni6
+  chainId === ChainInfoID.Terpnet1 || chainId === ChainInfoID.Uni6
     ? '/juno.png'
     : chainId === ChainInfoID.Stargaze1
     ? '/stargaze.png'

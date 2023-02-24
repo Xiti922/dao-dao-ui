@@ -1,4 +1,4 @@
-import { WalletConnectionStatus, useWallet } from '@noahsaso/cosmodal'
+import { WalletConnectionStatus, useWallet } from '@xiti/cosmodal'
 import uniq from 'lodash.uniq'
 import { useCallback, useState } from 'react'
 import toast from 'react-hot-toast'

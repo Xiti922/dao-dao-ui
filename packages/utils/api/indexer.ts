@@ -49,5 +49,5 @@ export default async function handler(
 
 const CHAIN_INDEXER_MAP: Record<string, string | undefined> = {
   'uni-6': 'https://juno-testnet.indexer.zone',
-  'juno-1': 'https://juno-mainnet.indexer.zone',
+  'athena-4': 'https://index.terp.network',
 }

@@ -2,7 +2,7 @@ import { Buffer } from 'buffer'
 
 import { findAttribute } from '@cosmjs/stargate/build/logs'
 import { ArrowBack } from '@mui/icons-material'
-import { useWallet } from '@noahsaso/cosmodal'
+import { useWallet } from '@xiti/cosmodal'
 import cloneDeep from 'lodash.clonedeep'
 import merge from 'lodash.merge'
 import { useCallback, useEffect, useMemo, useState } from 'react'

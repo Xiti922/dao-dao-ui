@@ -8,7 +8,7 @@ import {
   RotateRightOutlined,
   Tag,
 } from '@mui/icons-material'
-import { useWallet } from '@noahsaso/cosmodal'
+import { useWallet } from '@xiti/cosmodal'
 import clsx from 'clsx'
 import { ComponentType, useCallback, useEffect, useState } from 'react'
 import toast from 'react-hot-toast'

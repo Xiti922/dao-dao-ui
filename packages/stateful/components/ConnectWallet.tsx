@@ -1,4 +1,4 @@
-import { WalletConnectionStatus, useWalletManager } from '@noahsaso/cosmodal'
+import { WalletConnectionStatus, useWalletManager } from '@xiti/cosmodal'
 
 import {
   ConnectWalletProps,

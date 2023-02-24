@@ -1,4 +1,4 @@
-import { WalletConnectionStatus, useWalletManager } from '@noahsaso/cosmodal'
+import { WalletConnectionStatus, useWalletManager } from '@xiti/cosmodal'
 import { useRouter } from 'next/router'
 import { ReactNode, useCallback, useEffect, useState } from 'react'
 import toast from 'react-hot-toast'

@@ -1,4 +1,4 @@
-import { ChainInfoID } from '@noahsaso/cosmodal'
+import { ChainInfoID } from '@xiti/cosmodal'
 import { selectorFamily, waitForAll } from 'recoil'
 
 import {

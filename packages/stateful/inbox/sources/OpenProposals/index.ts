@@ -1,4 +1,4 @@
-import { WalletConnectionStatus, useWallet } from '@noahsaso/cosmodal'
+import { WalletConnectionStatus, useWallet } from '@xiti/cosmodal'
 import { useCallback } from 'react'
 import { useSetRecoilState } from 'recoil'
 

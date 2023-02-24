@@ -1,6 +1,6 @@
 import { coins } from '@cosmjs/stargate'
 import { findAttribute } from '@cosmjs/stargate/build/logs'
-import { useWallet } from '@noahsaso/cosmodal'
+import { useWallet } from '@xiti/cosmodal'
 import { useCallback, useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { constSelector, useRecoilValue, useSetRecoilState } from 'recoil'
