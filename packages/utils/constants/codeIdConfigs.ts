@@ -1,7 +1,7 @@
 import { CodeIdConfig } from '@dao-dao/types'
 
 // https://github.com/DA0-DA0/dao-contracts/releases/tag/v2.0.0-beta
-const terpTestnet: CodeIdConfig = {
+const junoTestnet: CodeIdConfig = {
   Cw20Base: 19, // v0.16
   Cw20Stake: 20,
   Cw4Group: 21, // v0.16
@@ -20,7 +20,7 @@ const terpTestnet: CodeIdConfig = {
 }
 
 // ContractVersion.V2: 2.0.1
-const terpMainnet: CodeIdConfig = {
+const junoMainnet: CodeIdConfig = {
   Cw20Base: 19, // v0.16
   Cw20Stake: 20,
   Cw4Group: 21, // v0.16
@@ -39,6 +39,6 @@ const terpMainnet: CodeIdConfig = {
 }
 
 export const CodeIdConfigs: Record<string, CodeIdConfig | undefined> = {
-  'uni-6': terpTestnet,
-  'athena-4': terpMainnet,
+  'uni-6': junoTestnet,
+  'athena-4': junoMainnet,
 }

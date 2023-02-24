@@ -35,5 +35,8 @@
   },
   "prettier": "@dao-dao/config/prettier",
   "packageManager": "yarn@1.22.11",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@xiti/cosmodal": "1.2.1"
+  }
 }
